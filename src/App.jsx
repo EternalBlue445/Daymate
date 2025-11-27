@@ -16,7 +16,8 @@ export default function DayMate() {
   const [hourly, setHourly] = useState([]);
   const [sevenDay, setSevenDay] = useState([]);
   const [aqi, setAqi] = useState(null);
-  const [recommendation, setRecommendation] = useState('');
+  const [recommendation, setRecommendation] = useState('Loading..');
+
   const [news, setNews] = useState([]);
 
   const [now, setNow] = useState(new Date());
@@ -232,7 +233,8 @@ const saveLocation = (loc) => {
             <div className="weather-details">
               <div className="weather-detail-item">
                 <span className="detail-icon">༄</span>
-                <div><div className="detail-label">Air Quality</div><div className="detail-value">{weather?.aqi || '—'}</div></div>
+                <div><div className="detail-label">Air Quality</div><div className="detail-value">{aqi || '—'}</div>
+</div>
               </div>
 
               <div className="weather-detail-item">
@@ -254,9 +256,10 @@ const saveLocation = (loc) => {
               <div className="ai-label"><span>AI Recommendation</span></div>
               <h2>Your Smart Day Plan</h2>
 
-              <p class="recommm">
-                {recommendation}
-              </p>
+              <p className={recommendation === "Loading.." ? "loader" : "recommm"}>
+  {recommendation}
+</p>
+
             </div>
           </div>
 
