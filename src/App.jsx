@@ -85,7 +85,7 @@ const saveLocation = (loc) => {
       setRecommendation("Loading..");
 
       try {
-        const res = await fetch(`https://daymate-django.onrender.com/api/weather/${encodeURIComponent(city)}`);
+        const res = await fetch(`https://daymate-django.onrender.com/api/weather/${encodeURIComponent(city)}/`);
 
         if (!res.ok) {
           setWeather(mockData.weather.current);
