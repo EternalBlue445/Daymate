@@ -87,7 +87,7 @@ const saveLocation = (loc) => {
 
       try {
         const res = await fetch(`https://daymate-django.onrender.com/api/weather/${encodeURIComponent(city)}`);
-        console.log("running.....);
+      
         if (!res.ok) {
           setWeather(mockData.weather.current);
           setHourly(mockData.weather.hourly);
