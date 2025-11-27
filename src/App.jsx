@@ -132,7 +132,10 @@ const saveLocation = (loc) => {
   }, [location]);
 
   // CLOCK
- 
+   useEffect(() => {
+    const id = setInterval(() => setNow(new Date()), 60 * 1000);
+    return () => clearInterval(id);
+  }, []);
 
   // MAP PREVIEW
   useEffect(() => {
