@@ -233,7 +233,7 @@ const saveLocation = (loc) => {
             <div className="weather-details">
               <div className="weather-detail-item">
                 <span className="detail-icon">༄</span>
-                <div><div className="detail-label">Air Quality</div><div className="detail-value">{aqi || '—'}</div>
+                <div><div className="detail-label">Air Quality</div><div className="detail-value">{weather?.aqi || '—'}</div>
 </div>
               </div>
 
