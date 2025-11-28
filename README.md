@@ -10,6 +10,9 @@
    - Then django combines the weather data and news article and sends it to Gemini and gets the recommendation
    - Finally, the weather data,news article and recommendation are sent to the frontend as a JSON Response.
 
+# Workflow
+Frontend hits api -> Backend receives -> fetches weather data -> fetches news articles -> sends the combined data to Gemini -> returns {weather data,local news and recommendation from Gemini} to frontend
+
 # How to use it? 
    - Render is a free hosting platform, so upon inactivity it suspends the server(frontend and backend).
    - So, go to the Backend url first and then frontend.
