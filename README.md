@@ -1,5 +1,5 @@
 # How does it work?
-1. Frontend makes a GET request on /api/weather/{city}. Ex: /api/weather/dhaka
+1. Frontend makes a GET request on https://daymate-django.onrender.com/api/weather/{city}. Ex: /api/weather/dhaka
 2. django receives that request
    - fetches the weather data from "https://www.accuweather.com" with API call for dhaka.
    - Then the django fetches the news article from The daily star and jugantor
@@ -12,7 +12,8 @@
    - Wait for 1 minute. Render will then restart the servers. When backend and frontend both are running then change locations to see new recommendations.
 
 # How you gonna know that backend is running?
-"https://daymate-django.onrender.com/" will return -> {"status": "running", "message": "API is live!"} this json response.
+   - Backend has 2 endpoints ('/','api/weather/{city}')
+   - So, to see if it is running or not just go to -> "https://daymate-django.onrender.com/" will return -> {"status": "running", "message": "API is live!"} this json response.
 
 # Live Urls 
  - Frontend(live):  https://daymate-s7gj.onrender.com
