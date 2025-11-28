@@ -14,9 +14,9 @@
 # How you gonna know that backend is running?
 "https://daymate-django.onrender.com/" will return -> {"status": "running", "message": "API is live!"} this json response.
 
-# Live 
-Frontend(live):  https://daymate-s7gj.onrender.com
-Backend(live):  https://daymate-django.onrender.com
+# Live Urls 
+ - Frontend(live):  https://daymate-s7gj.onrender.com
+ - Backend(live):  https://daymate-django.onrender.com
 
 # Screenshots
 ## Location
