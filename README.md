@@ -1,3 +1,7 @@
+# Frameworks Used
+1. Frontend: ReactJs
+2. Backend: Django
+
 # How does it work?
 1. Frontend makes a GET request on https://daymate-django.onrender.com/api/weather/{city}. Ex: /api/weather/dhaka
 2. django receives that request
