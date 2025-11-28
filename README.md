@@ -6,6 +6,11 @@
    - Then django combines the weather data and news article and sends it to Gemini and gets the recommendation
    - 
 # Screenshots
+## Location
 ![Location](Screenshots/location.png)
+
+## Local News
 ![News](Screenshots/news.png)
+
+## Recommendation
 ![Recommendation](Screenshots/recom.png)
