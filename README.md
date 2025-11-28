@@ -4,4 +4,8 @@
    - fetches the weather data from "https://www.accuweather.com" with API call.
    - Then the django fetches the news article from The daily star and jugantor
    - Then django combines the weather data and news article and sends it to Gemini and gets the recommendation
-
+   - 
+# Screenshots
+![Location](Screenshots/location.png)
+![News](Screenshots/news.png)
+![Recommendation](Screenshots/recom.png)
