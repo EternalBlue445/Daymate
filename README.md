@@ -4,7 +4,7 @@
    - fetches the weather data from "https://www.accuweather.com" with API call for dhaka.
    - Then the django fetches the news article from The daily star and jugantor
    - Then django combines the weather data and news article and sends it to Gemini and gets the recommendation
-   - Finally, the data is sent to the frontend as a JSON Response.
+   - Finally, the weather data,news article and recommendation are sent to the frontend as a JSON Response.
 
 # How to use it? 
    - Render is a free hosting platform, so upon inactivity it suspends the server(frontend and backend).
