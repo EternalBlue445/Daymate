@@ -16,6 +16,10 @@
    - sends the combined data to Gemini
    - returns {weather data,local news and recommendation from Gemini} to frontend
 
+# It takes 1 or 2 minutes to load the server.
+## If you see this following screen, wait for 1 minute. It will load the server. 
+![Loading](Screenshots/Loading.png)
+
 # How to use it? 
    - Render is a free hosting platform, so upon inactivity it suspends the server(frontend and backend).
    - So, go to the Backend url first and then frontend.
