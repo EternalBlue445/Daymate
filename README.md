@@ -11,9 +11,9 @@
    - Finally, the weather data,news article and recommendation are sent to the frontend as a JSON Response.
 
 # Workflow
-   - Frontend hits api 
-   - Backend receives  fetches weather data & news articles 
-   - sends the combined data to Gemini
+   - Frontend hits api (/api/weather/{any_city}) 
+   - Backend receives it and fetches weather data for that city & local news articles 
+   - sends the combined data to Gemini 
    - returns {weather data,local news and recommendation from Gemini} to frontend
 
 # It takes 1 or 2 minutes to load the server.
